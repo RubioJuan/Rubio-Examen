@@ -39,7 +39,7 @@ class ExamenFiltro extends HTMLElement {
                     formContainer.style.display = "block"; // Muestra el formulario al hacer clic en el enlace
             });
         });    
-  }
+    }
 }
 
 customElements.define('examen-filtro', ExamenFiltro);

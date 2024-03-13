@@ -33,7 +33,7 @@ class gestorFiltro extends HTMLElement {
             </form>`;
             /* addEventListener() Registra un evento a un objeto en específico.*/
             /*El DOMContentLoadedevento se activa cuando el documento HTML se ha analizado por completo y todos los scripts diferidos*/ 
-            document.addEventListener("donLoaded", function() {
+            document.addEventListener("DOMContentLoaded", function() {
                 let formContainer1 = document.getElementById("taskform1");
                 formContainer1.style.display = "none"; // Oculta el formulario inicialmente
             
@@ -46,7 +46,7 @@ class gestorFiltro extends HTMLElement {
   }
 }
 
-customElements.define('gestor-prueba', gestorFiltro);
+customElements.define('gestor-filtro', gestorFiltro);
 
 const taskform = document.querySelector('#taskform1')
 
